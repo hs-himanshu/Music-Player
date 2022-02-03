@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <!-- font awosome link -->
+    <script src="https://kit.fontawesome.com/baa30c5f4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <!-- header section starts here -->
+    <header class="header">
+
+        <a href="#" class="logo"><img src="images/logo-img1.png"> </i></a>
+
+        <nav class="navbar">
+            <a href="#home">Favourites</a>
+        </nav>
+
+
+        <div class="search-form">
+            <table class="element-container">
+                <tr>
+                    <td>
+                        <a href="#"><i class="fa fa-search fa-2x"></i></a>
+                    </td>
+                    <td>
+                        <input type="search" id="search-box" placeholder="Search">
+                    </td>
+                    <td>
+                        <a href="#"><i class="fas fa-microphone fa-2x"></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="icons">
+
+            <div id="notification-btn" class="fa fa-solid fa-bell">
+                <!-- <a href="#"><i class="fa fa-solid fa-bell"></i></a> -->
+            </div>
+
+        </div>
+
+        <a href="#" class="profile"><img src="images/profile.png"> </i></a>
+
+    </header>
+
+    <!-- header section ends here -->
+
+
+
+    <!-- sidebar section starts here -->
+
+    <div class="sidenav-body-container">
+        <div class="sidenav-container">
+            <div class="queue">
+                <h1>Queue</h1>
+                <p>queue</p>
+                <div class="dropdown-container" tabindex="-1">
+                    <div class="three-dots"><i class="fas fa-caret-down"></i></div>
+                    <div class="dropdown">
+                        <a href="#">
+                            <div>Playlists</div>
+                        </a>
+                        <a href="#">
+                            <div>Favourite Songs</div>
+                        </a>
+                        <a href="#">
+                            <div>Latest Releases</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sidenav">
+                <!-- <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a> -->
+                <ul>
+                    <li>
+                        <div id="list-number">01</div>
+                        <div class="list-img-container"><img src="images/english2.png"></div>
+                        <div id="list-heading">
+                            <h2>Mirage</h2>Else
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">02</div>
+                        <div class="list-img-container"><img src="images/english3.png"></div>
+                        <div id="list-heading">
+                            <h2>Worry Bout Us</h2>Rosie Lowe
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">03</div>
+                        <div class="list-img-container"><img src="images/english4.png"></div>
+                        <div id="list-heading">
+                            <h2>New Skin</h2>Flume
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">04</div>
+                        <div class="list-img-container"><img src="images/english3.png"></div>
+                        <div id="list-heading">
+                            <h2>Worry Bout Us</h2>Rosie Lowe
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">05</div>
+                        <div class="list-img-container"><img src="images/english4.png"></div>
+                        <div id="list-heading">
+                            <h2>New Skin</h2>Flume
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">06</div>
+                        <div class="list-img-container"><img src="images/english1.png"></div>
+                        <div id="list-heading">
+                            <h2>Mirage</h2>Else
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <!-- part -->
+                    <li>
+                        <div id="list-number">01</div>
+                        <div class="list-img-container"><img src="images/english2.png"></div>
+                        <div id="list-heading">
+                            <h2>Mirage</h2>Else
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">02</div>
+                        <div class="list-img-container"><img src="images/english3.png"></div>
+                        <div id="list-heading">
+                            <h2>Worry Bout Us</h2>Rosie Lowe
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">03</div>
+                        <div class="list-img-container"><img src="images/english4.png"></div>
+                        <div id="list-heading">
+                            <h2>New Skin</h2>Flume
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">04</div>
+                        <div class="list-img-container"><img src="images/english3.png"></div>
+                        <div id="list-heading">
+                            <h2>Worry Bout Us</h2>Rosie Lowe
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">05</div>
+                        <div class="list-img-container"><img src="images/english4.png"></div>
+                        <div id="list-heading">
+                            <h2>New Skin</h2>Flume
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+                    <li>
+                        <div id="list-number">06</div>
+                        <div class="list-img-container"><img src="images/english1.png"></div>
+                        <div id="list-heading">
+                            <h2>Mirage</h2>Else
+                        </div>
+                        <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- body content starts here -->
+        <div class="body-content">
+            <div class="slider-container">
+                <div id="img1"><img src="images/slide2.jpeg"></div>
+                <div id="img2"><img src="images/slide1.jpeg"></div>
+                <div id="img3"><img src="images/slide3.jpeg"></div>
+            </div>
+
+            <div>
+                <h1>Latest Releases</h1>
+            </div>
+            <div class="latest-releases-container">
+                <div class="release1">
+                    <img src="images/song.jpg" alt="">
+                    <div class="heading">
+                        <h3>Onism</h3><br>
+                        <p>11 sep 2017</p>
+                    </div>
+                    <div class="time-stamp">
+                        <h2>...</h2>
+                        <p>4:00</p>
+                    </div>
+
+                </div>
+                <div class="release1">
+                    <img src="images/song.jpg" alt="">
+                    <div class="heading">
+                        <h3>Onism</h3><br>
+                        <p>11 sep 2017</p>
+                    </div>
+                    <div class="time-stamp">
+                        <h2>...</h2>
+                        <p>4:00</p>
+                    </div>
+                </div>
+                <div class="release1">
+                    <img src="images/song.jpg" alt="">
+                    <div class="heading">
+                        <h3>Onism</h3><br>
+                        <p>11 sep 2017</p>
+                    </div>
+                    <div class="time-stamp">
+                        <h2>...</h2>
+                        <p>4:00</p>
+                    </div>
+                </div>
+                <div class="release1">
+                    <img src="images/song.jpg" alt="">
+                    <div class="heading">
+                        <h3>Onism</h3><br>
+                        <p>11 sep 2017</p>
+                    </div>
+                    <div class="time-stamp">
+                        <h2>...</h2>
+                        <p>4:00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <h1>Popular Artists</h1>
+            </div>
+            <div class="popular-artists-container">
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/ed sheeran.png"></a>
+                    <!-- <img src="images/ed sheeran.png"> -->
+                    <div class="heading">
+                        <h3>Ed Sheeran</h3>
+                    </div>
+                </div>
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/coldplay.jpeg"></a>
+                    <!-- <img src="images/coldplay.jpeg"> -->
+                    <div class="heading">
+                        <h3>ColdPlay</h3>
+                    </div>
+                </div>
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/zayan.jpeg"></a>
+                    <div class="heading">
+                        <h3>Zayn</h3>
+                    </div>
+                </div>
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/CharliePuth .jpeg"></a>
+                    <div class="heading">
+                        <h3>Charlie Puth</h3>
+                    </div>
+                </div>
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/imagine-dragon.jpeg"></a>
+                    <div class="heading">
+                        <h3>Imagine Dragon</h3>
+                    </div>
+                </div>
+                <div class="artist1">
+                    <a href="single-artist-playlist.html"><img src="images/bruno-mars.jpeg"></a>
+                    <div class="heading">
+                        <h3>Bruno Mars</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catagory-container">
+                <div id="radio" class="catagory1">
+                    <img src="images/stations.png">
+                </div>
+                <div class="catagory1">
+                    <img src="images/love-music.jpeg">
+                </div>
+                <div class="catagory1">
+                    <img src="images/retro-music.png">
+                </div>
+                <div class="catagory1">
+                    <img src="images/chill-music.jpeg">
+                </div>
+                <div class="catagory1">
+                    <img src="images/workout-music.jpeg">
+                </div>
+                <div class="catagory1">
+                    <img src="images/rock-music.jpeg">
+                </div>
+                <div class="catagory1">
+                    <img src="images/pop-music.jpeg">
+                </div>
+            </div>
+
+            <div class="music-type-container">
+                <div class="music-type1">
+                    <img src="images/party-music.jpeg">
+                </div>
+                <div class="music-type1">
+                    <img src="images/electronic-music.jpeg">
+                </div>
+                <div class="music-type1">
+                    <img src="images/roadtrip-music.jpeg">
+                </div>
+            </div>
+
+
+            <!-- latest English section-->
+            <div>
+                <h1>Latest English</h1>
+            </div>
+            <div class="latest-english-container">
+                <div class="english1">
+                    <img src="images/english1.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english2.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english3.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english4.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english1.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english2.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- latest hindi section -->
+            <div>
+                <h1>Latest Hindi</h1>
+            </div>
+            <div class="latest-english-container" id="hindi-container-id">
+                <div class="english1">
+                    <img src="images/english1.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english2.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english3.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english4.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english1.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+                <div class="english1">
+                    <img src="images/english2.png">
+                    <div class="head-eng">
+                        <h3>Onism</h3>
+                        <p>AUG 11,2017</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+        <!-- body content ends here -->
+
+        <!-- Music Player Controls section -->
+        <section class="player-control-container">
+            <div class="song-display">
+                <div id="list-number">01</div>
+                <div class="list-img-container"><img src="images/english2.png"></div>
+                <div id="list-heading">
+                    <h2>Mirage</h2>Else
+                </div>
+                <div id="list-heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+            <div class="controls-display">
+                <div class="timeline">
+                    <div class="time">
+                        <span class="current">00:00</span>
+                        <span class="total">04:30</span>
+                    </div>
+                    <div class="slider">
+                        <div class="progress">
+                            <div class="pin"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <span class="alink"><i class="fa far fa-random"></i></span>
+                    <span class="alink"><i class="fa far fa-step-backward"></i></span>
+                    <span class="alink"><i class="fa far fa-play"></i></span>
+                    <span class="alink"><i class="fa far fa-step-forward"></i></span>
+                    <span class="alink"><i class="fa far fa-sync-alt"></i></span>
+                </div>
+                <div class="footer">
+                    <span class="alink"><i class="fa far fa-angle-up"></i></span>
+                    <div class="lyrics"></div>
+                </div>
+            </div>
+            <div class="volume-controls">
+                <div class="volume-control-icons">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-laptop"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <i class="fas fa-compress"></i>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- sidebar section ends here -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
